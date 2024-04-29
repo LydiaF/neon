@@ -1,0 +1,18 @@
+---
+kind: ObjectBooleanExpressionType
+version: v1
+definition:
+  name: PlayingWithNeonBoolExp
+  objectType: PlayingWithNeon
+  dataConnectorName: app_connector
+  dataConnectorObjectType: playing_with_neon
+  comparableFields:
+    - fieldName: id
+      operators:
+        enableAll: true
+    - fieldName: name
+      operators:
+        enableAll: true
+  graphql:
+    typeName: App_CartItemsBoolExp
+

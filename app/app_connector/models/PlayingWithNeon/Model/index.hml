@@ -3,7 +3,7 @@ kind: Model
 version: v1
 definition:
   name: PlayingWithNeon
-  objectType: playing_with_neon
+  objectType: PlayingWithNeon
   source:
     dataConnectorName: app_connector
     collection: playing_with_neon

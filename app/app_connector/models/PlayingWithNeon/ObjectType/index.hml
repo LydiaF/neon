@@ -2,7 +2,7 @@
 kind: ObjectType
 version: v1
 definition:
-  name: playing_with_neon
+  name: PlayingWithNeon
   fields:
     - name: id
       type: Int4
