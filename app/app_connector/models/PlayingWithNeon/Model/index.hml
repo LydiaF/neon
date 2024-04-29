@@ -13,6 +13,6 @@ definition:
         enableAll: true
   graphql:
     selectMany:
-      queryRootField: app_playing_with_neon
+      queryRootField: playing_with_neon
     selectUniques: []
 
