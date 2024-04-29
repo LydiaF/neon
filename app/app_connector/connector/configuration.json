@@ -14,7 +14,20 @@
     "isolationLevel": "ReadCommitted"
   },
   "metadata": {
-    "tables": {},
+    "tables": {
+      "playing_with_neon": {
+        "schemaName": "public",
+        "tableName": "playing_with_neon",
+        "columns": {
+          "id": {
+            "name": "id",
+            "type": {
+              "scalarType": "int"
+            }
+          }
+        }
+      }
+    },
     "compositeTypes": {},
     "nativeQueries": {},
     "aggregateFunctions": {},

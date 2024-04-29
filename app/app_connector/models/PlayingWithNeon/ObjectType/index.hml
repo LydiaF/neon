@@ -1,0 +1,18 @@
+---
+kind: ObjectType
+version: v1
+definition:
+  name: playing_with_neon
+  fields:
+    - name: id
+      type: Int4
+  graphql:
+    typeName: App_CartItems
+    inputTypeName: App_CartItemsInput
+  dataConnectorTypeMapping:
+    - dataConnectorName: app_connector
+      dataConnectorObjectType: playing_with_neon
+      fieldMapping:
+        id:
+          column:
+            name: id

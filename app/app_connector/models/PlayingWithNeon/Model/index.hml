@@ -1,0 +1,19 @@
+---
+kind: Model
+version: v1
+definition:
+  name: PlayingWithNeon
+  objectType: playing_with_neon
+  source:
+    dataConnectorName: app_connector
+    collection: playing_with_neon
+  orderableFields:
+    - fieldName: id
+      orderByDirections:
+        enableAll: true
+  graphql:
+    selectMany:
+      queryRootField: app_cartItems
+    selectUniques: []
+    orderByExpressionType: App_CartItemsOrderBy
+

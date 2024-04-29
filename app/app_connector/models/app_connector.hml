@@ -8,8 +8,22 @@ definition:
     version: v0.1
     schema:
       scalar_types: {}
-      object_types: {}
-      collections: []
+      object_types: 
+        playing_with_neon:
+          fields: 
+            id:
+              type:
+                type: named
+                name: int4
+      collections: 
+        - name: playing_with_neon
+          arguments: {}
+          type: playing_with_neon
+          uniqueness_constraints:
+            playing_with_neon_pkey:
+              unique_columns: 
+                - id
+          foreign_keys: {}
       functions: []
       procedures: []
     capabilities:
