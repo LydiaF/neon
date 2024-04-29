@@ -1,0 +1,6 @@
+kind: ScalarType
+version: v1
+definition:
+  name: Timestamptz
+  graphql:
+    typeName: App_Timestamptz

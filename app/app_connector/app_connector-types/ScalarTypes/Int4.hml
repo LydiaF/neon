@@ -1,0 +1,6 @@
+kind: ScalarType
+version: v1
+definition:
+  name: Int4
+  graphql:
+    typeName: App_Int4
