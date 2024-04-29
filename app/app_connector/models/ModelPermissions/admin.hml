@@ -1,0 +1,9 @@
+---
+kind: ModelPermissions
+version: v1
+definition:
+  modelName: PlayingWithNeon
+  permissions:
+    - role: admin
+      select:
+        filter: null

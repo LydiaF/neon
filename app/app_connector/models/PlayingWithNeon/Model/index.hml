@@ -13,7 +13,6 @@ definition:
         enableAll: true
   graphql:
     selectMany:
-      queryRootField: app_cartItems
+      queryRootField: app_playing_with_neon
     selectUniques: []
-    orderByExpressionType: App_CartItemsOrderBy
 

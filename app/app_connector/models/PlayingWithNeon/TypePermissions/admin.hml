@@ -1,0 +1,10 @@
+---
+kind: TypePermissions
+version: v1
+definition:
+  typeName: playing_with_neon
+  permissions:
+    - role: admin
+      output:
+        allowedFields:
+          - id
