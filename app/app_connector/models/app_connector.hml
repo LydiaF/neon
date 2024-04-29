@@ -15,6 +15,10 @@ definition:
               type:
                 type: named
                 name: int4
+            name:
+              type:
+                type: named
+                name: text
       collections: 
         - name: playing_with_neon
           arguments: {}

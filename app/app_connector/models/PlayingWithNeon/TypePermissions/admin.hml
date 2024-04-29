@@ -8,3 +8,4 @@ definition:
       output:
         allowedFields:
           - id
+          - name

@@ -1,0 +1,6 @@
+kind: ScalarType
+version: v1
+definition:
+  name: Text
+  graphql:
+    typeName: App_Text

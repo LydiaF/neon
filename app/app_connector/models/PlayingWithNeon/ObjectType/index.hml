@@ -6,6 +6,8 @@ definition:
   fields:
     - name: id
       type: Int4
+    - name: name
+      type: Text
   graphql:
     typeName: App_PlayingWithNeon
     inputTypeName: App_PlayingWithNeonInput

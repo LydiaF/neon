@@ -22,7 +22,13 @@
           "id": {
             "name": "id",
             "type": {
-              "scalarType": "int"
+              "scalarType": "int4"
+            }
+          },
+          "name": {
+            "name": "name",
+            "type": {
+              "scalarType": "text"
             }
           }
         }

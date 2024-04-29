@@ -11,6 +11,9 @@ definition:
     - fieldName: id
       orderByDirections:
         enableAll: true
+    - fieldName: name
+      orderByDirections:
+        enableAll: true
   graphql:
     selectMany:
       queryRootField: playing_with_neon
