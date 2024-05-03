@@ -1,0 +1,12 @@
+{
+  "name": "neon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LydiaF/neon.git",
+  "author": "Lydia",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "postgres": "^3.4.4"
+  }
+}
