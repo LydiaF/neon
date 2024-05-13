@@ -21,4 +21,7 @@ jobs:
         curl -L https://graphql-engine-cdn.hasura.io/ddn/cli/v1/get.sh | bash
 
     - name: Run ddn build sm
-      run: ddn build sm
+      run: ddn version
+
+    - name: Run login
+      run: ddn login
