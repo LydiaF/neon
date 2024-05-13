@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ddn_build:
+    needs: V2_api_vitests
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Hasura Project
+      id: deploy-hasura
+      uses: hasura/ddn-deployment@0.0.2
+      with:
+        hasura-pat: ${{ secrets.HASURA_PAT }}
