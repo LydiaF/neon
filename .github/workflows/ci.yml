@@ -7,10 +7,8 @@ on:
   pull_request:
     branches:
       - main
-
 jobs:
   ddn_build:
-    needs: V2_api_vitests
     runs-on: ubuntu-latest
     steps:
     - name: Deploy Hasura Project
