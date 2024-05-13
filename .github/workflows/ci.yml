@@ -24,4 +24,6 @@ jobs:
       run: ddn version
 
     - name: Run login
-      run: ddn login
+      env:
+        HASURA_PAT: ${{ secrets.HASURA_PAT }}
+      run: ddn build sm --pat $HASURA_PAT
